@@ -4,20 +4,20 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+I am a senior undergraduate student at Brigham Young University (BYU) in the Applied and Computational Mathematics (ACME) program. I have the priveledge of 
+doing research with [Dr. Mark Kempton](https://science.byu.edu/directory/mark-kempton) on the properties of nonbacktracking random walks (NBRW) on graphs.
 
 ## Research Interests
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+- Reinforcement Learning
+- Theory of Deep Neural Networks
+- Optimization
+- Graph Theory and Matrix Theory
 
 ## News
 
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
+- **[Jan. 2024]** Our work on Kemeny's Constant for NBRW presented at JMM.
 
-{% include_relative _includes/publications.md %}
+<!-- {% include_relative _includes/publications.md %} -->
 
-{% include_relative _includes/services.md %}
+<!-- {% include_relative _includes/services.md %} -->
