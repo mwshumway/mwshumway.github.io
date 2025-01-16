@@ -16,7 +16,7 @@ doing research with [Dr. Mark Kempton](https://science.byu.edu/directory/mark-ke
 
 ## News
 
-- **[Jan. 2024]** Our work on Kemeny's Constant for NBRW presented at JMM.
+- **[Jan. 2025]** Presented our work on Kemeny's Constant for NBRW at JMM.
 
 <!-- {% include_relative _includes/publications.md %} -->
 
