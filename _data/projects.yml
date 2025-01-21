@@ -1,7 +1,7 @@
 main:
 
   - title: AlphaGomoku - A Generalized AlphaZero Framework for Gomoku
-    authors: Matthew Shumway
+    authors: Matt Shumway
     class: BYU CS 401R - Reinforcement Learning
     pdf: ./assets/files/AlphaGomoku.pdf
     code: https://github.com/mwshumway/alphagomoku
@@ -9,9 +9,22 @@ main:
 
 
   - title: Predicting NYC Taxi Demand
-    authors: Cole Edgren, Eli Sampson, Matthew Shumway
+    authors: Cole Edgren, Eli Sampson, Matt Shumway
     class: BYU Math 402 - Modeling with Uncertainty and Data 1
     pdf: ./assets/files/nyc_taxi_writeup.pdf
     code: https://github.com/mwshumway/nyc_taxi
     image: ./assets/img/nyc_taxi_image.jpg
 
+  - title: ODE Model for Market Competition
+    authors: Cole Edgren, Josh Hoagland, Matt Shumway, Nathan Todd, Brandon Waits
+    class: BYU Math 436 - Model Dynamics and Control 1
+    pdf: ./assets/files/Radiator_Springs_Writeup.pdf
+    code: https://github.com/brandonwaits12/Radiator-Springs/tree/matt
+    image: ./assets/img/radiator_springs_img.jpg
+  
+  - title: Exploring the Forward Forward Algorithm
+    authors: Max Fennimore, Jason Oliphant, Eli Sampson, Matt Shumway
+    class: BYU Math 522 - The Mathematics of Deep Learning
+    pdf: https://github.com/mwshumway/forward_forward/blob/main/FF_main.ipynb
+    code: https://github.com/mwshumway/forward_forward
+    image: ./assets/img/mnist_neg.png
