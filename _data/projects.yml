@@ -1,0 +1,17 @@
+main:
+
+  - title: AlphaGomoku - A Generalized AlphaZero Framework for Gomoku
+    authors: Matthew Shumway
+    class: BYU CS 401R - Reinforcement Learning
+    pdf: ./assets/files/AlphaGomoku.pdf
+    code: https://github.com/mwshumway/alphagomoku
+    image: ./assets/img/gomoku_board.jpg
+
+
+  - title: Predicting NYC Taxi Demand
+    authors: Cole Edgren, Eli Sampson, Matthew Shumway
+    class: BYU Math 402 - Modeling with Uncertainty and Data 1
+    pdf: ./assets/files/nyc_taxi_writeup.pdf
+    code: https://github.com/mwshumway/nyc_taxi
+    image: ./assets/img/nyc_taxi_image.jpg
+

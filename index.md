@@ -16,7 +16,9 @@ doing research with [Dr. Mark Kempton](https://science.byu.edu/directory/mark-ke
 
 ## News
 
-- **[Jan. 2025]** Presented [our work](./assets/files/NBRW_Vertex_Kemeny.pdf) on Kemeny's Constant for NBRW at JMM.
+- **[Jan. 2025]** Presented [our work](assets/files/NBRW_Vertex_Kemeny.pdf) on Kemeny's Constant for NBRW at JMM.
+
+{% include_relative _includes/projects.md %}
 
 <!-- {% include_relative _includes/publications.md %} -->
 
