@@ -7,8 +7,10 @@
 <div class="pub-row" style="display: flex; margin-bottom: 20px; align-items: center;">
   <div class="col-sm-3 abbr" style="flex: 0 0 15%; padding-right: 15px; padding-left: 15px;">
     {% if link.image %} 
-    <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" 
-         style="max-width: 200px; height: auto; display: block; margin: 0 auto;">
+    <div style="width: 200px; height: 150px; overflow: hidden; margin: 0 auto; border-radius: 10px;">
+      <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" 
+           style="width: 100%; height: 100%; object-fit: cover; display: block;">
+    </div>
     {% endif %}
   </div>
   <div class="col-sm-9" style="flex: 1; padding-right: 15px; padding-left: 20px;">
