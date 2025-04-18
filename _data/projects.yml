@@ -1,12 +1,30 @@
 main:
 
+  - title: Optimal Control Approach to Wildfire Rescue
+    authors: Max Fennimore, Josh Hoagland, Eli Sampson, Matt Shumway
+    class: BYU Math 438 - Model Dynamics and Control 2
+    pdf: ./assets/files/wildfires_v4.pdf
+    code: https://github.com/mwshumway/Wildfires
+    image: ./assets/img/wildfire_multi.png
+  
+  - title: Exploring Contextual Bandits
+    authors: Matt Shumway
+    class: BYU CS 677 - Bayesian Methods in CS
+    pdf: ./assets/files/contextual_bandits.pdf
+    image: ./assets/img/bandit_regret.png
+
+  - title: Market Regime Identification and Forecasting
+    authors: Michael King, Trevor Larsen, Matt Shumway, Nathan Todd, Brandon Waits
+    class: BYU Math 404 - Modeling with Uncertainty and Data 1
+    pdf: ./assets/files/KLSTW_Regime_Identification.pdf
+    image: ./assets/img/regime_id.png
+
   - title: AlphaGomoku - A Generalized AlphaZero Framework for Gomoku
     authors: Matt Shumway
     class: BYU CS 401R - Reinforcement Learning
     pdf: ./assets/files/AlphaGomoku.pdf
     code: https://github.com/mwshumway/alphagomoku
     image: ./assets/img/gomoku_board.jpg
-
 
   - title: Predicting NYC Taxi Demand
     authors: Cole Edgren, Eli Sampson, Matt Shumway
