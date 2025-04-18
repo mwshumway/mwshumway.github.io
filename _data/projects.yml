@@ -11,7 +11,7 @@ main:
     authors: Matt Shumway
     class: BYU CS 677 - Bayesian Methods in CS
     pdf: ./assets/files/contextual_bandits.pdf
-    image: ./assets/img/bandit_regret.png
+    image: ./assets/img/bandit_regret.pngs
 
   - title: Market Regime Identification and Forecasting
     authors: Michael King, Trevor Larsen, Matt Shumway, Nathan Todd, Brandon Waits
@@ -19,7 +19,7 @@ main:
     pdf: ./assets/files/KLSTW_Regime_Identification.pdf
     image: ./assets/img/regime_id.png
 
-  - title: AlphaGomoku - A Generalized AlphaZero Framework for Gomoku
+  - title: AlphaGomoku - AlphaZero for Gomoku
     authors: Matt Shumway
     class: BYU CS 401R - Reinforcement Learning
     pdf: ./assets/files/AlphaGomoku.pdf
