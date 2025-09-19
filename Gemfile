@@ -8,5 +8,5 @@ gem 'logger'
 gem 'csv'
 gem 'ostruct'
 gem 'base64'
-gem 'bigdecimal'
 gem 'rexml'
+gem "bigdecimal"

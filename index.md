@@ -4,15 +4,13 @@ layout: homepage
 
 ## About Me
 
-I am a senior undergraduate student at Brigham Young University (BYU) in the Applied and Computational Mathematics (ACME) program. I have the priveledge of 
-doing research with [Dr. Mark Kempton](https://science.byu.edu/directory/mark-kempton) on the properties of nonbacktracking random walks (NBRW) on graphs.
+I am a first year PhD student in Boston University's Computing and Data Science (CDS) program. I have the priveledge of currently doing a research rotation with [Dr. Xuezhou Zhang](https://zhangxz1123.github.io/). Previously, I was at Brigham Young University (BYU), where I studied applied and computational mathematics and conducted research in spectral graph theory with [Dr. Mark Kempton](https://mathdept.byu.edu/~mkempton/index.htm).
 
 ## Research Interests
 
 - Reinforcement Learning
-- Theory of Deep Neural Networks
-- Optimization
-- Graph Theory and Matrix Theory
+- Learning Theory
+- Optimization Theory
 
 ## News
 

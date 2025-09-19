@@ -1,4 +1,4 @@
-<h2 id="publications" style="margin: 2px 0px 0px;">Projects</h2>
+<h2 id="publications" style="margin: 2px 0px 0px;">School/Personal Projects</h2>
 
 <div class="projects" style="padding-top: 15px;">
 
