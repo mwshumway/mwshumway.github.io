@@ -140,3 +140,23 @@ span.highlight {
     display: inline-block;
     border-radius: 10px;
 }
+
+.toggle-link {
+  font-family: 'Lato', Verdana, Helvetica, sans-serif;
+  font-size: 15px;
+  color: #1772d0;
+  text-decoration: none;
+  margin: 0 4px;
+  transition: color 0.2s ease;
+}
+
+.toggle-link:hover {
+  text-decoration: underline;
+  color: #125aa3;
+}
+
+.toggle-link.active {
+  font-weight: bold !important;
+  text-decoration: underline !important;
+}
+

@@ -36,7 +36,8 @@
                   <a href="data/MatthewShumway-CV.pdf">CV</a> &nbsp;/&nbsp;
                   <!-- <a href="https://scholar.google.com/citations?hl=en&user=jktWnL8AAAAJ">Scholar</a> &nbsp;/&nbsp; -->
                   <!-- <a href="https://twitter.com/jon_barron">Twitter</a> &nbsp;/&nbsp; -->
-                  <a href="https://github.com/mwshumway/">Github</a>
+                  <a href="https://www.linkedin.com/in/matthew-shumway7/">LinkedIn</a> &nbsp;/&nbsp;
+                  <a href="https://github.com/mwshumway/">Github</a> 
                 </p>
               </td>
               <td style="padding:2.5%;width:37%;max-width:37%">
@@ -147,17 +148,24 @@
 
 
           
-  <table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;"><tbody>
-    <tr>
-      <td>
-        <h2>Fun Projects From Undergrad</h2>
-      </td>
-    </tr>
-  </tbody></table>
+  <table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;">
+    <tbody>
+      <tr>
+        <td style="vertical-align:middle;">
+          <h2 style="display:inline;">Fun Projects From Undergrad</h2>
+          <span style="margin-left:12px;">
+            <a id="show-selected" class="toggle-link active" href="#">Selected</a> |
+            <a id="show-all" class="toggle-link" href="#">All</a>
+          </span>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
   <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-  
 
 <!-- Optimal Control for Wildfires -->
+  <tr class="project selected">
     <td style="padding:16px;width:20%;vertical-align:middle">
       <div class="overlay-container" 
           onmouseover="wildfire_start()" 
@@ -212,8 +220,10 @@
           </p>
     </td>
     </tr>
+  </tr>
 
 <!-- Contextual Bandits -->
+  <tr class="project">
     <td style="padding:16px;width:20%;vertical-align:middle">
       
         <!-- Static image -->
@@ -237,8 +247,10 @@
           </p>
     </td>
     </tr>
+  </tr>
 
 <!-- Market Regime ID and Forecasting -->
+  <tr class="project">
     <td style="padding:16px;width:20%;vertical-align:middle">
       
         <!-- Static image -->
@@ -267,8 +279,10 @@
           </p>
     </td>
     </tr>
+  </tr>
 
 <!-- AlphaGomoku -->
+  <tr class="project selected">
     <td style="padding:16px;width:20%;vertical-align:middle">
       
         <!-- Static image -->
@@ -294,8 +308,10 @@
           </p>
     </td>
     </tr>
+  </tr>
 
 <!-- nyc taxi -->
+  <tr class="project selected">
     <td style="padding:16px;width:20%;vertical-align:middle">
       <div class="overlay-container" 
           onmouseover="nyc_taxi_start()" 
@@ -349,8 +365,10 @@
           </p>
     </td>
     </tr>
+  </tr>
 
 <!-- Forward Forward -->
+  <tr class="project">
     <td style="padding:16px;width:20%;vertical-align:middle">
       
         <!-- Static image -->
@@ -379,8 +397,10 @@
           </p>
     </td>
     </tr>
+  </tr>
 
 <!-- ODE model for Market Competition -->
+  <tr class="project">
     <td style="padding:16px;width:20%;vertical-align:middle">
       
         <!-- Static image -->
@@ -410,7 +430,7 @@
           </p>
     </td>
     </tr>
-
+  </tr>
 
 <!-- Honors and Awards -->
   <table style="width:100%; margin:0 auto; border:0; border-spacing:0; padding:16px;"><tbody>
@@ -526,4 +546,36 @@
       </tr>
     </table>
   </body>
+
+  <!-- Script for toggling -->
+  <script> 
+  function showSelectedOnly() {
+    document.querySelectorAll('.project').forEach(p => {
+      p.style.display = p.classList.contains('selected') ? '' : 'none';
+    });
+  }
+
+  function showAllProjects() {
+    document.querySelectorAll('.project').forEach(p => p.style.display = '');
+  }
+
+  document.getElementById('show-selected').addEventListener('click', function(e) {
+    e.preventDefault();
+    this.classList.add('active');
+    document.getElementById('show-all').classList.remove('active');
+    showSelectedOnly();
+  });
+
+  document.getElementById('show-all').addEventListener('click', function(e) {
+    e.preventDefault();
+    this.classList.add('active');
+    document.getElementById('show-selected').classList.remove('active');
+    showAllProjects();
+  });
+
+  // Run once on page load to default to "Selected"
+  document.addEventListener('DOMContentLoaded', showSelectedOnly);
+  </script>
+
+
 </html>
