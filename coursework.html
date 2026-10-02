@@ -10,10 +10,11 @@
     <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
     <style>
-      .term { margin: 22px 0 6px 0; font-weight: 700; }
-      .course { margin: 0 0 12px 0; }
-      .course .code { color: #666; font-size: 0.9em; }
-      .course .desc { margin: 2px 0 0 0; }
+      .sem { border: 1px solid #ddd; border-radius: 10px; padding: 10px 18px 6px 18px; margin: 14px 0; background: #fafafa; }
+      .term { margin: 0 0 8px 0; padding-bottom: 6px; border-bottom: 1px solid #e3e3e3; font-weight: 700; font-size: 1.05em; }
+      .course { margin: 0 0 10px 0; }
+      .course .code { color: #777; font-size: 0.88em; white-space: nowrap; }
+      .course .desc { margin: 1px 0 0 0; color: #444; font-size: 0.93em; line-height: 1.35; }
       ul.plain { margin: 4px 0 0 0; padding-left: 1.2em; }
     </style>
   </head>
@@ -28,103 +29,120 @@
         <h2>Boston University</h2>
         <p style="margin-top:0"><em>PhD, Faculty of Computing and Data Sciences</em></p>
 
+        <section class="sem">
         <div class="term">Fall 2026 (in progress)</div>
         <div class="course">
-          <strong>Complexity Theory</strong> <span class="code">(CAS CS 535, Mark Bun)</span>
+          <strong>Complexity Theory</strong> <span class="code">(CAS CS 535)</span>
           <p class="desc">The capabilities and fundamental limits of efficient computation: which problems are inherently hard, and how resources such as time, space, randomness and interaction affect what can be computed.</p>
         </div>
+        </section>
 
+        <section class="sem">
         <div class="term">Spring 2026</div>
         <div class="course">
           <strong>Introduction to Sequential Decision Making</strong> <span class="code">(CDS DS 592)</span>
           <p class="desc">Design and analysis of algorithms for sequential decision making, focused on bandits and statistical learning theory: UCB, EXP3, linear and contextual bandits, and function approximation.</p>
         </div>
         <div class="course">
-          <strong>Multimodal Machine Learning</strong> <span class="code">(CAS CS 598, Bryan Plummer)</span>
+          <strong>Multimodal Machine Learning</strong> <span class="code">(CAS CS 598)</span>
           <p class="desc">Representation, fusion, alignment and generation across modalities such as vision, language and signals, including multimodal transformers, interaction and quantification, with a semester-long team research project.</p>
         </div>
+        </section>
 
+        <section class="sem">
         <div class="term">Fall 2025</div>
         <div class="course">
-          <strong>Algorithmic Mechanism Design</strong> <span class="code">(CDS DS 574, Kira Goldner)</span>
+          <strong>Algorithmic Mechanism Design</strong> <span class="code">(CDS DS 574)</span>
           <p class="desc">Computational perspectives applied to economic problems, and economic techniques applied to computer science: welfare-maximizing auctions, equilibria, and mechanism design for social good.</p>
         </div>
         <div class="course">
-          <strong>Algorithms for Machine Learning</strong> <span class="code">(CAS CS 599 E1, Alina Ene)</span>
+          <strong>Algorithms for Machine Learning</strong> <span class="code">(CAS CS 599 E1)</span>
           <p class="desc">Seminar on efficient algorithms for building modern machine learning models at scale: adaptive gradient methods, dimensionality reduction, retrieval, attention and state space models, and model compression.</p>
         </div>
+        </section>
 
         <h2>Brigham Young University</h2>
         <p style="margin-top:0"><em>BS, Applied and Computational Mathematics Emphasis</em></p>
 
+        <section class="sem">
         <div class="term">Winter 2025</div>
-        <ul class="plain">
-          <li>Reinforcement Learning</li>
-          <li>Bayesian Methods in Computer Science</li>
-          <li>Model Uncertainty and Data 2 (with lab)</li>
-          <li>Model Dynamics and Control 2 (with lab)</li>
-        </ul>
+        <div class="course">
+          <strong>Bayesian Methods in Computer Science</strong> <span class="code">(CS 677)</span>
+          <p class="desc">Bayesian methods for modeling uncertainty in data, including Bayesian deep learning, alongside classical ML models such as regression and decision trees.</p>
+        </div>
+        <div class="course">
+          <strong>Modeling with Uncertainty and Data 2</strong> <span class="code">(MATH 404, with lab)</span>
+          <p class="desc">Mathematical statistics: estimation, inference, regression, multivariate and Bayesian statistics, Kalman filtering, and time series.</p>
+        </div>
+        <div class="course">
+          <strong>Modeling with Dynamics and Control 2</strong> <span class="code">(MATH 438, with lab)</span>
+          <p class="desc">Calculus of variations, optimal control and Pontryagin's maximum principle, stochastic differential equations, and uncertainty quantification.</p>
+        </div>
+        </section>
 
+        <section class="sem">
         <div class="term">Fall 2024</div>
-        <ul class="plain">
-          <li>Deep Learning</li>
-          <li>Mathematics of Deep Learning</li>
-          <li>Model Uncertainty and Data 1 (with lab)</li>
-          <li>Model Dynamics and Control 1 (with lab)</li>
-          <li>Topics in Computer Science</li>
-        </ul>
+        <div class="course">
+          <strong>Introduction to Deep Learning</strong> <span class="code">(CS 474)</span>
+          <p class="desc">Theory and practice of deep learning.</p>
+        </div>
+        <div class="course">
+          <strong>Mathematics of Deep Learning</strong> <span class="code">(MATH 522)</span>
+          <p class="desc">Mathematics behind how deep neural networks are formulated and designed, including their stability and generalizability, and statistical learning theory such as Rademacher complexity and VC dimension.</p>
+        </div>
+        <div class="course">
+          <strong>Modeling with Uncertainty and Data 1</strong> <span class="code">(MATH 402, with lab)</span>
+          <p class="desc">Probability and stochastic processes: random variables, limit theorems, martingales, Markov and Poisson processes, and information theory.</p>
+        </div>
+        <div class="course">
+          <strong>Modeling with Dynamics and Control 1</strong> <span class="code">(MATH 436, with lab)</span>
+          <p class="desc">Dynamical systems, bifurcation theory, control theory, and partial differential equations.</p>
+        </div>
+        <div class="course">
+          <strong>Reinforcement Learning</strong> <span class="code">(CS 401R)</span>
+          <p class="desc">Introduction to reinforcement learning: fundamentals such as Q-learning, policy iteration, policy evaluation, value-based and model-based methods, and on-policy versus off-policy learning.</p>
+        </div>
+        </section>
 
+        <section class="sem">
         <div class="term">Winter 2024</div>
-        <ul class="plain">
-          <li>Algorithm Design and Optimization 2 (with lab)</li>
-          <li>Mathematical Analysis 2 (with lab)</li>
-          <li>Matrix Analysis</li>
-        </ul>
+        <div class="course">
+          <strong>Algorithm Design and Optimization 2</strong> <span class="code">(MATH 322, with lab)</span>
+          <p class="desc">Optimization: linear programming and the simplex method, convex optimization, Lagrangian methods, and unconstrained and global optimization.</p>
+        </div>
+        <div class="course">
+          <strong>Mathematical Analysis 2</strong> <span class="code">(MATH 346, with lab)</span>
+          <p class="desc">Theory of integration (Riemann and Lebesgue), complex analysis, calculus on curves and surfaces, and spectral calculus.</p>
+        </div>
+        <div class="course">
+          <strong>Matrix Analysis</strong> <span class="code">(MATH 570)</span>
+          <p class="desc">Special classes of matrices, canonical forms, matrix and vector norms, eigenvalue localization, and matrix functions.</p>
+        </div>
+        </section>
 
+        <section class="sem">
         <div class="term">Fall 2023</div>
-        <ul class="plain">
-          <li>Algorithm Design and Optimization 1 (with lab)</li>
-          <li>Mathematical Analysis 1 (with lab)</li>
-          <li>Readings in Mathematics</li>
-        </ul>
+        <div class="course">
+          <strong>Algorithm Design and Optimization 1</strong> <span class="code">(MATH 320, with lab)</span>
+          <p class="desc">Algorithm analysis, approximation theory, and recursive algorithms, with some overlap with data structures and algorithms.</p>
+        </div>
+        <div class="course">
+          <strong>Mathematical Analysis 1</strong> <span class="code">(MATH 344, with lab)</span>
+          <p class="desc">Vector spaces, linear maps, inner product spaces, spectral theory, metric space topology, and convex analysis.</p>
+        </div>
+        </section>
 
+        <section class="sem">
         <div class="term">Summer 2023</div>
-        <ul class="plain">
-          <li>Data Structures</li>
-          <li>Theory of Analysis 1</li>
-        </ul>
-
-        <div class="term">Spring 2023</div>
-        <ul class="plain">
-          <li>Ordinary Differential Equations</li>
-        </ul>
-
-        <div class="term">Winter 2023</div>
-        <ul class="plain">
-          <li>Introduction to Computer Science</li>
-          <li>Calculus of Several Variables</li>
-          <li>Elementary Linear Algebra</li>
-          <li>Computational Linear Algebra</li>
-          <li>Fundamentals of Mathematics</li>
-        </ul>
-
-        <div class="term">Fall 2022</div>
-        <ul class="plain">
-          <li>How to Program</li>
-          <li>Calculus 2</li>
-        </ul>
-
-        <div class="term">Winter 2020</div>
-        <ul class="plain">
-          <li>General Physics 1 (with lab)</li>
-          <li>Introduction to Microbiology</li>
-        </ul>
-
-        <div class="term">Fall 2019</div>
-        <ul class="plain">
-          <li>General College Chemistry 2 (with lab)</li>
-          <li>General Biology: Health and Disease</li>
-        </ul>
+        <div class="course">
+          <strong>Data Structures and Algorithms</strong> <span class="code">(CS 235)</span>
+          <p class="desc">Fundamental data structures and algorithms, including algorithm analysis, recursion, sorting and searching, trees and hashing.</p>
+        </div>
+        <div class="course">
+          <strong>Theory of Analysis 1</strong> <span class="code">(MATH 341)</span>
+          <p class="desc">Rigorous treatment of single-variable calculus and the real number system.</p>
+        </div>
+        </section>
 
       </td></tr>
     </tbody></table>
