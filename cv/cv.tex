@@ -1,0 +1,98 @@
+\documentclass[10.5pt,letterpaper]{article}
+\usepackage[margin=0.7in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{charter}
+\usepackage[hidelinks]{hyperref}
+\usepackage{enumitem}
+\usepackage{titlesec}
+\usepackage{xcolor}
+
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=1.4em,itemsep=1pt,topsep=2pt,parsep=0pt}
+
+\titleformat{\section}{\large\bfseries}{}{0em}{}[\vspace{-0.6em}\rule{\linewidth}{0.8pt}]
+\titlespacing*{\section}{0pt}{9pt}{4pt}
+
+% \entry{bold left}{right}{italic left}{italic right}
+\newcommand{\entry}[4]{%
+  \textbf{#1}\hfill\textbf{#2}\\
+  \textit{#3}\hfill\textit{#4}\par}
+
+% Placeholder to fill in later (shows up highlighted so it can't be missed)
+\newcommand{\todo}[1]{\textcolor{red}{[#1]}}
+
+\begin{document}
+
+\begin{center}
+  {\LARGE Matthew Shumway}\\[3pt]
+  \href{mailto:mshumway@bu.edu}{mshumway@bu.edu} $\bullet$
+  \href{https://mwshumway.github.io}{mwshumway.github.io} $\bullet$
+  \href{https://www.linkedin.com/in/matthew-shumway7/}{LinkedIn} $\bullet$
+  \href{https://github.com/mwshumway/}{GitHub}
+\end{center}
+
+\section*{Education}
+\entry{PhD, Computing and Data Sciences}{Fall 2025 -- Present}
+      {Boston University, Faculty of Computing and Data Sciences}{Boston, Massachusetts}
+
+\vspace{4pt}
+\entry{BS, Applied \& Computational Mathematics Emphasis (ACME)}{April 2025}
+      {Brigham Young University}{Provo, Utah}
+\begin{itemize}
+  \item GPA: 4.0; Full Academic Scholarship, Dean's List
+  \item Concentration in Data Science and Machine Learning
+\end{itemize}
+
+\section*{Publications}
+\begin{itemize}[leftmargin=0pt,label={},itemsep=4pt]
+  \item \textbf{M.~Shumway}$^{*}$, Y.~Tu$^{*}$, X.~Zhang.
+        \textit{From Ranking to Selection: Evaluating Representation Proxies in RL}.
+        In submission, 2026. ($^{*}$equal contribution, listed alphabetically)
+  \item J.~Breen, M.~Kempton, A.~Knudson, \textbf{M.~Shumway} (\textit{$\alpha$--$\beta$}).
+        \textit{On defining Kemeny's constant for non-backtracking random walks}.
+        Linear Algebra and its Applications, 2026.
+        \href{https://arxiv.org/abs/2510.06650}{arXiv:2510.06650}
+\end{itemize}
+
+\section*{Research Experience}
+\entry{Graduate Research Assistant}{Fall 2025 -- Present}
+      {Boston University, Faculty of Computing and Data Sciences}{Boston, Massachusetts}
+\begin{itemize}
+  \item Lightweight proxies for model selection in RL: evaluated a large suite of proxies on their ability to rank and select models; proposed a new metric aligned with selection, whereas prior work evaluated only rank correlation
+\end{itemize}
+
+\vspace{4pt}
+\entry{Spectral Graph Theory Research Assistant}{December 2023 -- April 2025}
+      {Brigham Young University, Department of Mathematics}{Provo, Utah}
+\begin{itemize}
+  \item Formulated two novel analogues of Kemeny's constant for non-backtracking random walks; developed and released a documented Python package (NBRW) supporting reproducible analyses
+\end{itemize}
+
+\section*{Industry Experience}
+\entry{AI Engineer Intern}{May -- August 2025}
+      {Vivint}{Lehi, Utah}
+\begin{itemize}
+  \item Curated personalized highlight videos from home security camera footage using vision-language models
+\end{itemize}
+
+\vspace{4pt}
+\entry{R\&D Data Science Intern}{July -- September 2024}
+      {bioM\'erieux}{Salt Lake City, Utah}
+\begin{itemize}
+  \item Trained XGBoost models to predict the impact of DNA degeneracy on PCR-based diagnostic assay performance
+\end{itemize}
+
+\section*{Teaching}
+\entry{Teaching Assistant, Introduction to Probability}{Fall 2026 -- Present}
+      {Boston University, Faculty of Computing and Data Sciences}{Boston, Massachusetts}
+
+\vspace{4pt}
+\entry{Teaching Assistant and Course Developer, Computer Science}{January -- June 2023}
+      {Brigham Young University, Department of Computer Science}{Provo, Utah}
+
+\section*{Awards}
+\textbf{CDS Duan Family Fellowship}, Boston University \hfill 2025\\
+\textbf{Edwin S. Hinckley Scholarship}, Brigham Young University \hfill 2024
+
+\end{document}
